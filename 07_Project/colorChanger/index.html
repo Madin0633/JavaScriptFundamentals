@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Color Changer</title>
+    <style>
+        .color{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .button {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        #green {
+            background-color: green;
+
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+        #pink {
+            background-color: pink;
+        }
+        #red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Click to Change Color of Body</h1>
+    <div class="color">
+        <div class="button" id="green"></div>
+        <div class="button" id="yellow"></div>
+        <div class="button" id="pink"></div>
+        <div class="button" id="red"></div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
